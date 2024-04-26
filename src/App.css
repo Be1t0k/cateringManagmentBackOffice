@@ -12,7 +12,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 1vmin);
   color: white;
 }
 
@@ -20,17 +20,40 @@
   color: #61dafb;
 }
 
-.NavMenu{
+.NavMenu {
   width: 17%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: start;
+  font-size: calc(10px + 1vmin);
 }
 
-.NavMenu_item{
+.NavMenu_item {
+  width: 100%;
+  justify-content: center;
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  /* width: 40px;
+  height: 40px;
+  border-radius: 20px; */
+}
+
+.NavMenu_item:hover {
+  background-color: #282c34;
+  transition: 0.4s;
+  /* width: 40px;
+  height: 40px;
+  border-radius: 20px; */
+}
+
+button {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  padding: 10px;
+  font-size: calc(10px + 1vmin);
+  border: none;
+  background-color: rgba(1, 1, 1, 0);
 }
