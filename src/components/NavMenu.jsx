@@ -9,12 +9,12 @@ function NavMenu() {
     return (
         <div className='NavMenu'>
             <h2>Logo_togo</h2>
-            <NavMenuItem icon={'resources/logo.png'} text={'писюн горшков'}/>
-            <CollapseMenu options={options}/>
-            <NavMenuItem icon={'./icon.jpg'} text={'navmenu_item'}/>
-            <NavMenuItem icon={'./icon.jpg'} text={'navmenu_item'}/>
-            <NavMenuItem icon={'./icon.jpg'} text={'navmenu_item'}/>
-            <NavMenuItem icon={'./icon.jpg'} text={'navmenu_item'}/>
+            <NavMenuItem icon={'resources/logo.png'} text={'Писюн Горшков'}/>
+            <CollapseMenu options={options} text={'Выбрать точку >'}/>
+            <NavMenuItem icon={'./icon.jpg'} text={'Меню'}/>
+            <NavMenuItem icon={'./icon.jpg'} text={'Заказы'}/>
+            <NavMenuItem icon={'./icon.jpg'} text={'Система лояльности'}/>
+            <NavMenuItem icon={'./icon.jpg'} text={'Сотрудники'}/>
         </div>
     )
 }

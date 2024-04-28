@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import NavMenuItem from './NavMenuItem';
 
-const CollapseMenu = ({ options }) => {
+const CollapseMenu = ({ options, text }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div style={{width:'100%'}}>
-      <button onClick={() => setIsOpen(!isOpen)}>выбрать точку</button>
+      <button onClick={() => setIsOpen(!isOpen)} className="NavMenu_item">{text}</button>
       {isOpen && (
         <>
           {options.map((option, index) => (
