@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NavMenuItem from './NavMenuItem';
+import NavMenuItem from './nav_menu/NavMenuItem';
 
 const CollapseMenu = ({ options, text }) => {
   const [isOpen, setIsOpen] = useState(false);
