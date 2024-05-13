@@ -1,12 +1,12 @@
-import Account from '../pages/Account';
 import ContentMain from '../components/ContentMain/ContentMain';
-import AddStaff from '../pages/AddStaff';
-import Dishes from '../pages/Dishes';
 import DishPage from '../pages/DishPage';
-import DishStopList from '../pages/DishStopList';
 import Orders from '../pages/Orders';
-import CreateDish from '../pages/CreateDish';
 import NotFoundPage from '../pages/NotFoundPage';
+import Suppliers from '../pages/Supplier';
+import Measures from '../pages/Measures';
+import Ingredients from '../pages/Ingredients';
+import InvoceConsigment from '../pages/InvoceConsigment';
+import Statistics from '../pages/Statistics';
 
 
 export const publicRoutes = [
@@ -16,10 +16,9 @@ export const publicRoutes = [
     }
 ];
 export const privateRoutes = [
-    
     {
-        name: Account,
-        path: '/staff'
+        name: Suppliers,
+        path: '/suppliers'
     },
     {
         name: Orders,
@@ -34,15 +33,19 @@ export const privateRoutes = [
         path: '/home'
     },
     {
-        name: AddStaff,
-        path: '/addstaff'
+        name: Measures,
+        path: '/measures'
     },
     {
-        name: Dishes,
-        path: '/dishes'
+        name: Ingredients,
+        path: '/ingredients'
     },
     {
-        name: DishStopList,
-        path: '/stoplist'
+        name: InvoceConsigment,
+        path: '/invoce_consigment'
+    },
+    {
+        name: Statistics,
+        path: '/statistics'
     }
 ];

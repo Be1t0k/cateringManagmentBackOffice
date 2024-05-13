@@ -43,8 +43,8 @@ export default class Get {
         return response;
     }
 
-    static async getEmployees(){
-        const response = await axios.get(`http://localhost:8082/api/v1/client`)
+    static async getSuppliers(){
+        const response = await axios.get(`http://localhost:8081/api/v1/supplier`)
         return response;
     }
 

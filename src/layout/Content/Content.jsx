@@ -2,9 +2,8 @@ import "./Content.css";
 import ContentTop from '../../components/ContentTop/ContentTop';
 import { Route, Routes } from "react-router-dom";
 import { privateRoutes, publicRoutes } from "../../utils/routes";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import Login from "../../pages/Login";
-import LoginLayout from "../../pages/LoginLayout";
 import { AuthContext } from "../../context";
 
 const Content = () => {

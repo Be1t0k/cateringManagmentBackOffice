@@ -31,13 +31,9 @@ const Savings = ({basket}) => {
                     <div className="grid-item" key={basket?.id}>
                         <div className="grid-item-top">
                             <div className="grid-item-top-l">
-                                <div className="avatar img-fit-cover">
-                                    <img src={personsImgs.person_one} />
-                                </div>
                                 <p className="text text-silver-v1">Status: {basket?.basketStatus}</p>
                             </div>
                             <div className="grid-item-top-r">
-                                <span className="text-silver-v1">$ {basket?.total_price}</span>
                             </div>
                         </div>
                         <div className="grid-item-bottom">
