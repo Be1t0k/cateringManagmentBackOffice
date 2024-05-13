@@ -4,6 +4,7 @@ import MySelect from '../../UI/MySelect/MySelect';
 import Get from '../../API/Get';
 import { useFetching } from '../../hooks/useFetching';
 import axios from 'axios';
+import Dropdown from '../DropDown/DropDown';
 
 const CreateDishForm = ({ create }) => {
     const [dish, setDish] = useState({ title: '', cost: '', discount: 0, calorie: 0, dishCategory: '', dishStatus: '', technologicalMap: '' })
@@ -20,7 +21,7 @@ const CreateDishForm = ({ create }) => {
         // console.log(inputs);
 
   const myArray = inputs.map(function(obj) {
-    return {count: parseInt(obj.count), ingredient: parseInt(obj.ingredient)};
+    return {count: parseInt(obj.count), ingredientId: parseInt(obj.ingredient)};
 });
 
         const addingDish = {
@@ -99,6 +100,7 @@ const CreateDishForm = ({ create }) => {
                 type="text"
                 placeholder="Название блюда"
             />
+            <Dropdown></Dropdown>
 
             {/*Неуправляемый\Неконтролируемый компонент*/}
             <label htmlFor="cost">cost:</label>
