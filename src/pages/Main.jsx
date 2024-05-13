@@ -1,10 +1,9 @@
 import React from 'react'
-import HeaderArea from '../components/HeaderArea'
 
 function Main() {
   return (
     <div className="Main">
-        <HeaderArea/>
+      <p>sdfsd</p>
     </div>
   )
 }
