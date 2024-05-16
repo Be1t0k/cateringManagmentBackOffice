@@ -165,7 +165,7 @@ select,
 button,
 textarea {
   font-family: var(--font-family-bai);
-  font-size: 18px;
+  font-size: 14px;
   padding: 0.25rem;
   border-radius: 0.5rem;
 }

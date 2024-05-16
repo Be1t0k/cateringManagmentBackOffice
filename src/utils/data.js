@@ -3,8 +3,7 @@ import { personsImgs } from "./images";
 
 export const navigationLinks = [
     { id: 1, title: 'Home', route: 'Home', image: iconsImgs.home },
-    { id: 2, title: 'Меры', route: 'Measures', image: iconsImgs.budget },
-    { id: 3, title: 'Ингредиенты', route: 'Ingredients', image: iconsImgs.plane },
+    { id: 3, title: 'Ингредиенты и меры', route: 'Ingredients', image: iconsImgs.plane },
     { id: 4, title: 'Накладные и поставки', route: 'Invoce_consigment', image: iconsImgs.wallet },
     { id: 5, title: 'Заказы', route: 'Orders', image: iconsImgs.bills },
     { id: 6, title: 'Поставщики', route: 'Suppliers', image: iconsImgs.user },

@@ -3,7 +3,6 @@ import DishPage from '../pages/DishPage';
 import Orders from '../pages/Orders';
 import NotFoundPage from '../pages/NotFoundPage';
 import Suppliers from '../pages/Supplier';
-import Measures from '../pages/Measures';
 import Ingredients from '../pages/Ingredients';
 import InvoceConsigment from '../pages/InvoceConsigment';
 import Statistics from '../pages/Statistics';
@@ -31,10 +30,6 @@ export const privateRoutes = [
     {
         name: ContentMain,
         path: '/home'
-    },
-    {
-        name: Measures,
-        path: '/measures'
     },
     {
         name: Ingredients,

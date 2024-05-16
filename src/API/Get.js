@@ -48,5 +48,16 @@ export default class Get {
         return response;
     }
 
+    static async getProducts(){
+        const response = await axios.get(`http://localhost:8081/api/v1/consignment`)
+        return response;
+    }
+
+    static async getMeasures(){
+        const response = await axios.get(`http://localhost:8081/api/v1/measure`)
+        return response;
+    }
+    
+
     
 }
